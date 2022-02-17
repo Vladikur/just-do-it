@@ -3,6 +3,7 @@ const defaultState = {
 }
 
 const ADD_CARD = "ADD_CARD"
+const ADD_MANY_CARDS = "ADD_MANY_CARDS"
 const REMOVE_CARD = "REMOVE_CARD"
 const UPDATE_CARD = "UPDATE_CARD"
 
@@ -10,6 +11,8 @@ export const reducer = (state = defaultState, action) => {
   switch (action.type) {
     case ADD_CARD:
       return {...state, cards: [action.payload, ...state.cards ]}
+    case ADD_MANY_CARDS:
+        return {...state, cards: [...action.payload, ...state.cards ]}
     case REMOVE_CARD:
       return {...state, cards: [...state.cards].filter((c) => c.id !== action.payload.id)}
     case UPDATE_CARD:
@@ -28,5 +31,6 @@ export const reducer = (state = defaultState, action) => {
 }
 
 export const addCardAction = (payload) => ({type: ADD_CARD, payload})
+export const addManyCardAction = (payload) => ({type: ADD_MANY_CARDS, payload})
 export const removeCardAction = (payload) => ({type: REMOVE_CARD, payload})
 export const updateCardAction = (payload) => ({type: UPDATE_CARD, payload})

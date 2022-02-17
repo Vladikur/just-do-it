@@ -5,6 +5,7 @@ import Main from '../Main/Main';
 import Header from '../Header/Header';
 import AddToDoForm from '../AddToDoForm/AddToDoForm';
 import { useDispatch, useSelector } from 'react-redux'
+import { addManyCardAction } from '../../utils/CardReducer';
 
 
 function App() {
@@ -20,9 +21,7 @@ function App() {
     .then (data => {
       const initialCards = data.filter((c) => c.userId === 1);
       if(cards.length === 0) {
-        initialCards.forEach(element => {
-          dispatch({type: "ADD_CARD", payload: element})
-        });
+        dispatch(addManyCardAction(initialCards))
       }
     })
     .catch(err => console.log(err))
