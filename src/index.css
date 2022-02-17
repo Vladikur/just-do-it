@@ -1,0 +1,15 @@
+@import url(./vendor/normalize.css);
+
+@import url(./vendor/fonts/inter.css);
+
+@import url(./components/App/App.css);
+
+@import url(./components/Main/Main.css);
+
+@import url(./components/Card/Card.css);
+
+@import url(./components/Header/Header.css);
+
+@import url(./components/AddToDoForm/AddToDoForm.css);
+
+@import url(./components/Preloader/Preloader.css);

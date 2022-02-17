@@ -1,0 +1,132 @@
+.card {
+  position: relative;
+  width: 300px;
+  background-color: #659DBD;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 34px 10px 10px 10px;
+  box-sizing: border-box;
+  border: white 3px solid;
+}
+
+.card__button-remove {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: url(../../images/exit.svg) center no-repeat;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: none;
+  box-sizing: border-box;
+  transition: opacity 0.1s linear 0.1s;
+}
+
+.card__button-remove:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.card__name {
+  margin: 8px 0 8px 8px;
+  font-family: Inter, 'Arial', sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 27px;
+  color: white;
+}
+
+.card__description {
+  margin: 0 0 0 8px;
+  font-family: Inter, 'Arial', sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+}
+
+.card__description:nth-of-type(4) {
+  margin-top: 14px;
+}
+
+.card__button-redact {
+  border-radius: 5px;
+  height: 22px;
+  margin: 11px 0 0 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: Inter, 'Arial', sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 16px;
+  color: #659DBD;
+  transition: opacity 0.1s linear 0.1s;
+}
+
+.card__button-redact:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.card__button-complete {
+  background-color: #a15e3e;
+  border-radius: 5px;
+  height: 44px;
+  margin: 11px 0 0 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: Inter, 'Arial', sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+  transition: opacity 0.1s linear 0.1s;
+}
+
+.card__button-complete_type_complete {
+  background-color: #4c704b;
+}
+
+.card__button-complete:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.card__textarea {
+  resize: none;
+  border: none;
+  border-radius: 5px;
+  height: 75px;
+  margin: 0;
+  font-family: Inter, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.card__textarea_type_completed {
+  text-decoration: line-through;
+}
+
+.card__textarea:focus {
+  outline: none;
+  border: 3px solid #659DBD;
+}
+
+.card__textarea:disabled {
+  background-color: #659DBD;
+  color: white;
+}
+
