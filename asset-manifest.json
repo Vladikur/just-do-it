@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/just-do-it/static/css/main.aa6dffeb.css",
+    "main.js": "/just-do-it/static/js/main.cd1d2f8b.js",
+    "static/js/787.b64e62b7.chunk.js": "/just-do-it/static/js/787.b64e62b7.chunk.js",
+    "static/media/Inter-Medium.woff": "/just-do-it/static/media/Inter-Medium.f5549f68ca7db479bc7d.woff",
+    "static/media/Inter-Black.woff": "/just-do-it/static/media/Inter-Black.e258f99875304915b846.woff",
+    "static/media/Inter-Regular.woff": "/just-do-it/static/media/Inter-Regular.8398b3762d7b06fc3b8c.woff",
+    "static/media/Inter-Medium.woff2": "/just-do-it/static/media/Inter-Medium.ba68c34a21c5751a2838.woff2",
+    "static/media/Inter-Black.woff2": "/just-do-it/static/media/Inter-Black.ef2d12b9f04d00e319f2.woff2",
+    "static/media/Inter-Regular.woff2": "/just-do-it/static/media/Inter-Regular.6cc68d6b835a3dd06e7e.woff2",
+    "index.html": "/just-do-it/index.html",
+    "static/media/exit.svg": "/just-do-it/static/media/exit.44bb1e48112a8752b62d.svg",
+    "main.aa6dffeb.css.map": "/just-do-it/static/css/main.aa6dffeb.css.map",
+    "main.cd1d2f8b.js.map": "/just-do-it/static/js/main.cd1d2f8b.js.map",
+    "787.b64e62b7.chunk.js.map": "/just-do-it/static/js/787.b64e62b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa6dffeb.css",
+    "static/js/main.cd1d2f8b.js"
+  ]
+}
