@@ -56,13 +56,18 @@ function Card({ id, title, completed }) {
     `card__button-complete ${data.completed ? 'card__button-complete_type_complete' : ''}`
   );
 
-  const textareaClassName = (
-    `card__textarea ${data.completed ? 'card__textarea_type_completed' : ''}`
+  const textClassName = (
+    `card__text ${data.completed ? 'card__text_type_completed' : ''}`
   );
 
   return (
     <div className="card">
-      <textarea disabled={!redact} value={data.title || ''} onChange={handleChange} className={textareaClassName} type="text" name="title" required minLength="2" maxLength="80" />
+      { !redact ?
+      <div className="card__text-container">
+        <p className={textClassName}>{data.title}</p>
+      </div>
+      : <textarea value={data.title || ''} onChange={handleChange} className='card__textarea' type="text" name="title" required minLength="2" maxLength="80" />
+      }
       <button onClick={onRemoveCard} type="button" className="card__button-remove"/>
       <button onClick={onRedact} type="button" className="card__button-redact">{ !redact ? 'Редактировать...' : 'Сохранить' }</button>
       <button onClick={onCompleted} type="button" className={completeButtonClassName}>{!data.completed ? 'Не выполнено' : 'Выполнено'}</button>

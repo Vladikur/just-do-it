@@ -116,17 +116,28 @@
   line-height: 18px;
 }
 
-.card__textarea_type_completed {
-  text-decoration: line-through;
-}
-
 .card__textarea:focus {
   outline: none;
   border: 3px solid #659DBD;
 }
 
-.card__textarea:disabled {
+.card__text-container {
   background-color: #659DBD;
+  border-radius: 5px;
+  height: 75px;
+  width: 100%;
+}
+
+.card__text {
+  margin: 0;
+  font-family: Inter, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
   color: white;
 }
 
+.card__text_type_completed {
+  text-decoration: line-through;
+}
