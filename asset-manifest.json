@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/just-do-it/static/css/main.87370900.css",
+    "main.css": "/just-do-it/static/css/main.6fa7f007.css",
     "main.js": "/just-do-it/static/js/main.8b11373f.js",
     "static/js/787.b64e62b7.chunk.js": "/just-do-it/static/js/787.b64e62b7.chunk.js",
     "static/media/Inter-Medium.woff": "/just-do-it/static/media/Inter-Medium.f5549f68ca7db479bc7d.woff",
@@ -11,12 +11,12 @@
     "static/media/Inter-Regular.woff2": "/just-do-it/static/media/Inter-Regular.6cc68d6b835a3dd06e7e.woff2",
     "index.html": "/just-do-it/index.html",
     "static/media/exit.svg": "/just-do-it/static/media/exit.44bb1e48112a8752b62d.svg",
-    "main.87370900.css.map": "/just-do-it/static/css/main.87370900.css.map",
+    "main.6fa7f007.css.map": "/just-do-it/static/css/main.6fa7f007.css.map",
     "main.8b11373f.js.map": "/just-do-it/static/js/main.8b11373f.js.map",
     "787.b64e62b7.chunk.js.map": "/just-do-it/static/js/787.b64e62b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87370900.css",
+    "static/css/main.6fa7f007.css",
     "static/js/main.8b11373f.js"
   ]
 }
