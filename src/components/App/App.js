@@ -33,8 +33,6 @@ function App() {
   return (
     <div className="page">
       <Header/>
-
-      
       <Switch>
 
         <Route exact path='/'>
@@ -50,7 +48,6 @@ function App() {
             preloader={isReceiving}
           />
         </Route>
-
       </Switch>
 
     </div>
